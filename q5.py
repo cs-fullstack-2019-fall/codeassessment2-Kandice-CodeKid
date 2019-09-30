@@ -14,3 +14,22 @@
 # # Update the rating from 2 to 8 from your code
 # The Grizzlies are from Memphis and are 8 in the standings.
 # ```
+
+# create a team class
+class SportsTeam:
+    # properties:team_name_p, team_city, and team_ranking_p
+    def __init__(self, name_p, team_city, team_ranking_p):
+        self.name_p = name_p
+        self.team_city = team_city
+        self.team_ranking_p = team_ranking_p
+    #use the string method to show team name, team city, and team rank using a f' string
+    def __str__(self):
+        return f'The {self.name_p} are from {self.team_city} and is {self.team_ranking_p} in the rankings.'
+
+
+# change team ranking
+team1 = SportsTeam('Tigers', 'Whitehave', 3)
+# print class
+print(team1)
+newRanking = SportsTeam("Tigers",'Whitehaven', 1)
+print(newRanking)

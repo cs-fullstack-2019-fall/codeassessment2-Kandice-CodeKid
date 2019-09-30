@@ -10,3 +10,19 @@
 
 # BIRD is longer than COW
 # ```
+
+
+def wordComp(user1, user2):
+    if user1 > user2:
+        return True
+    if user1 < user2:
+        return False
+
+
+
+
+# ask for two words from user
+userInput1 = input("enter a word ").lower()
+userInput2 = input('enter another word ').lower()
+
+print(wordComp(userInput1, userInput2))

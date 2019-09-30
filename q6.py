@@ -21,3 +21,23 @@
 # Club Treasurer: Bob
 # ```
 
+#Club member class, with name and role
+class Clubmember:
+    def __init__(self, name, role):
+        self.name = name
+        self.role = role
+    #loop through the club member list and show name and role
+    def __str__(self):
+        return f'Club {self.role}: {self. name}'
+
+# show the instances of the club members
+mem1 = Clubmember('Alfred', 'President')
+mem2 = Clubmember('Troy', 'Vice President')
+mem3 = Clubmember('Albert', 'Secretary')
+mem4 = Clubmember('Bob', 'Treasurer')
+mem5 = Clubmember('Lorenzo', 'Sargent at Arms')
+
+# loop through each instance of club member and print
+members = [mem1, mem2, mem3, mem4, mem5]
+for eachMember in members:
+    print(eachMember)
