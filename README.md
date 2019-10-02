@@ -1,5 +1,16 @@
 # codeAssessment2
 #### Final Grade: 9.5/12
+1 Output off but mostly right.
+
+2 Good with comments
+
+3 Didn't mix the numbers right. But good start
+
+4 Didnt use string length in comparison
+
+5 No update rank method implemented. Used a new instance instead of updating existing instance with a method.
+
+6 Good
 ### Instructions
 Answer each question inside of the individual question files. Each file has the question paste inside of it.
 
